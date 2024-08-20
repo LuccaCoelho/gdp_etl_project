@@ -11,3 +11,5 @@ This project used a wikipedia page "List of countries by GDP (nominal)." It extr
 - **Numpy**: Used to perform a mathematical problem and round numbers.
 - **BeautifulSoup**: Used to parse HTML from webpage to the Python file.
 - **Datetime**: Used to created progress logs.
+
+  ![Data Loaded into SQL](https://github.com/LuccaCoelho/gdp_etl_project/blob/main/GDP_Table_Data.png)
