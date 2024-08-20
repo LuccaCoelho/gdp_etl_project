@@ -92,9 +92,6 @@ def log_progress(message):
     with open("./etl_project_log.txt", "a") as file:
         file.write(timestamp_format + ": " + message + "\n")
 
-''' Here, you define the required entities and call the relevant 
-functions in the correct order to complete the project. Note that this
-portion is not inside any function.'''
 # Extraction of data
 log_progress("Preliminaries complete. Initiating ETL process.:")
 extracted_data = extract(url, table_attributes)
